@@ -19,7 +19,6 @@
     font-family: 'Roboto-Light';
     src:url(../fonts/Roboto/Roboto-Light.ttf);
 }
-
 header{
     background-color: #1f2937;
     color: #f9faf8;
@@ -33,8 +32,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-
- ul{
+ul{
     display: flex;
 }
 li{
@@ -150,7 +148,6 @@ figure p.author{
     color: #f9faf8;
     font-size: 18px;
 }
-
 .sign-content{
     display: flex;
     justify-content: space-around;
