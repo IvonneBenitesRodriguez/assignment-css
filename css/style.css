@@ -52,20 +52,15 @@ a{
 .header-text-links{
     padding-left: 7%;
 }
-article{
-    background-color: #1f2937;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
 .first-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 95px;
-    margin-right: 95px;
-    margin-top: 20px;
     padding-bottom: 60px;
+    background-color: #1f2937;
+}
+.part-one{
+    margin-left: 7%;
 }
 .part-one p{
     margin-right: 40px;
@@ -81,6 +76,9 @@ article{
     color: #f9faf8;
     font-weight: 900;
     font-family: 'Roboto-Bold',sans-serif;
+}
+.part-two{
+    margin-right: 7%;
 }
 .part-two img{
 margin-left: 10px;
@@ -98,6 +96,7 @@ margin-left: 10px;
     font-family: 'Roboto-Bold', sans-serif;
 }
 .second-section h2{
+    margin-top: 30px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -108,26 +107,20 @@ margin-left: 10px;
     margin-left: 30px;
     margin-right: 30px;
 }
-.boxes p{
-    text-align: justify;
-    width: 250px;
+.boxes-four figure{
+    background-color: white;
 }
-.boxes img{
+.boxes-four figure img{
     border: 2px solid #3882f6;
     border-radius: 10px;
+}
+.boxes-four figure figcaption{
+    text-align: justify;
+    width: 250px;
 }
 .second-section{
     margin-bottom: 30px;
     padding-bottom: 30px;
-}
-blockquote{
-    margin:0;
-}
-figure{
-    background-color: #e5e7eb;
-    padding:20px;
-    text-align: center;
-    padding-top:20px;
 }
 blockquote{
     width: 600px;
@@ -140,10 +133,6 @@ blockquote p{
     font-family: 'Roboto-LightItalic', sans-serif ;
     color: #1f2937;
 }
-figure p.author{
-    margin-bottom: 20px;
-    margin-left: 188px;
-}
 .section-sign{
     display: flex;
     justify-content: center;
@@ -153,6 +142,16 @@ figure p.author{
     font-family: 'Roboto-Bold', sans-serif;
     color: #f9faf8;
     font-size: 18px;
+}
+.section-blockquote{
+    text-align: center;
+    background-color: #e5e7eb;
+    padding-bottom: 45px;
+}
+.section-author{
+    margin-bottom: 20px;
+    margin-left: 188px;
+    padding-left: 20%;
 }
 .sign-content{
     display: flex;
