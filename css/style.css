@@ -108,9 +108,10 @@ margin-left: 10px;
     text-align: justify;
     width: 250px;
 }
-.boxes img{
-    border: 1x solid #3882f6;
+
+.boxes.boxes-images img{ 
     border-radius: 10px;
+    border: 2px solid #3882f6; 
 }
 .second-section{
     margin-bottom: 30px;
